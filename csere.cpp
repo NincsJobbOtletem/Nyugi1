@@ -7,28 +7,20 @@ int main()
     x = x * y;
     y = x / y;
     x = x / y;
-    cout << "csere: x=" << x << ", y=" << y;
-}
+    cout << "csere * al: x=" << x << ", y=" << y <<"\n";
 
-#include "std_lib_facilities.h"
 
-int main()
-{
-    int x = 8, y = 3;
+    int a = 8, b = 3;
 
-    x = x - y;
-    y = x + y;
-    x = y - x;
-    cout << "csere: x=" << x << ", y=" << y;
-}
+    a = a - b;
+    b = a + b;
+    b = b - a;
+    cout << "csere + - al: a=" << a << ", b=" << b<<"\n";
 
-#include "std_lib_facilities.h"
 
-int main()
-{
-    int x = 8, y = 3;
-        x ^= y;
-        y ^= x;
-        x ^= y;
-    cout << "csere xor al: x=" << x << ", y=" << y;
+    int c = 8, d = 3;
+        c ^= d;
+        d ^= c;
+        c ^= d;
+    cout << "csere xor al: c=" << c << ", d=" << d<<"\n";
 }

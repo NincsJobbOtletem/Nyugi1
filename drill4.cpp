@@ -36,14 +36,13 @@ while(cin>>a){
     largest = a;
   }
 } 
-
 string unit;
 double sum=0;
 double smallest,largest,db=0;
 bool k=true;
 vector <double> v;
 
-
+/*
 cout<<"Adj meg egy szamot majd egy mertekegyseget: \n";
 
 while (cin>>a>>unit) {
@@ -91,6 +90,6 @@ sort(v.begin(),v.end());
  for (int i = 0;i<v.size();i++){
    cout<<v[i]<<" ";
  }
-
+*/
 return 0;
 
